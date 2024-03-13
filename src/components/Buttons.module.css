@@ -1,0 +1,21 @@
+.buttonContainer{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  background-color: rgb(43, 214, 226);
+  padding: 10px 0px 10px 0px;
+}
+
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  border: 1px solid rgb(12, 243, 235);
+  border-radius: 5px;
+  color: rgb(1, 10, 40);
+}
+
+.button:hover{
+  background-color: rgb(226, 135, 135);
+  border: 1px solid black;
+}
